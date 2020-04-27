@@ -7162,9 +7162,11 @@ label.panel-block {
   background-image: url("/img/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  height: 200px; }
+  height: auto;
+  padding: 1em; }
 
 .banner_logo {
+  width: 250px;
   margin: auto; }
 
 .has-inverted-color {
@@ -7192,6 +7194,8 @@ label.panel-block {
     background-position: center; }
   .projetos .base.card {
     background-image: url("/img/capa-projeto---base.jpg"); }
+    .projetos .base.card .card_logo {
+      height: 60px; }
   .projetos .bbt.card {
     background-image: url("/img/capa-projeto---bbt.jpg"); }
   .projetos .cop.card {
@@ -7201,7 +7205,7 @@ label.panel-block {
   .projetos .xldr.card {
     background-image: url("/img/capa-projeto---xldr.jpg"); }
   .projetos .card_logo {
-    width: 180px;
+    height: 80px;
     margin: auto; }
   .projetos .card-content {
     min-height: 12em;

@@ -89,10 +89,12 @@ $letter-spacing-1: -0.1rem;
     background-image: url("/img/banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: auto;
+    padding: 1em;
 }
 
 .banner_logo{
+    width: 250px;
     margin: auto;
 }
 
@@ -126,6 +128,9 @@ $letter-spacing-1: -0.1rem;
     }
     .base.card{
         background-image: url("/img/capa-projeto---base.jpg");
+        .card_logo{
+            height: 60px;
+        }
     }
     .bbt.card{
         background-image: url("/img/capa-projeto---bbt.jpg");
@@ -140,7 +145,7 @@ $letter-spacing-1: -0.1rem;
         background-image: url("/img/capa-projeto---xldr.jpg");
     }
     .card_logo{
-        width: 180px;
+        height: 80px;
         margin: auto;
     }
     .card-content {

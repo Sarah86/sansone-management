@@ -48,7 +48,7 @@
 
     <header>
       <div class="is-flex banner has-text-centered has-background-dark">
-        <figure class="banner_logo image is-128x128 has-image-centered">
+        <figure class="banner_logo image has-image-centered">
           <img class="has-inverted-color" src="img/logo-sansone.png" />
         </figure>
       </div>
@@ -85,18 +85,19 @@
               <footer class="card-footer">
                 <p class="card-footer-item is-paddingless">
                   <button
-                    class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
+                  
+                    class="button is-static hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Projeto
                   </button>
                 </p>
-                <p class="card-footer-item is-paddingless">
+                <a href="http://www.basearmalite.com.br/" class="card-footer-item is-paddingless" target="_blank">
                   <button
                     class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Site
                   </button>
-                </p>
+                </a>
               </footer>
             </div>
           </div>
@@ -108,18 +109,18 @@
               <footer class="card-footer">
                 <p class="card-footer-item is-paddingless">
                   <button
-                    class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
+                    class="button is-static hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Projeto
                   </button>
                 </p>
-                <p class="card-footer-item is-paddingless">
+                <a href="https://www.badboytactical.com.br/" class="card-footer-item is-paddingless" target="_blank">
                   <button
                     class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Site
                   </button>
-                </p>
+                </a>
               </footer>
             </div>
           </div>
@@ -129,20 +130,20 @@
                 <img class="card_logo" src="img/capa-projeto---cop-logo.png"/>
               </div>
               <footer class="card-footer">
-                <p class="card-footer-item is-paddingless">
+                <a href="http://www.copinternacional.com/projeto/COP2019.pdf" class="card-footer-item is-paddingless" target="_blank">
                   <button
                     class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Projeto
                   </button>
-                </p>
-                <p class="card-footer-item is-paddingless">
+                </a>
+                <a href="http://www.copinternacional.com" class="card-footer-item is-paddingless" target="_blank">
                   <button
                     class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Site
                   </button>
-                </p>
+                </a>
               </footer>
             </div>
           </div>
@@ -152,16 +153,17 @@
                 <img class="card_logo" src="img/capa-projeto---w2c-logo.png"/>
               </div>
               <footer class="card-footer">
-                <p class="card-footer-item is-paddingless">
+                <a href="projetos/W2C.pdf" class="card-footer-item is-paddingless" target="_blank">
                   <button
-                    class="hvr-sweep-to-right button is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
+                    class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Projeto
                   </button>
-                </p>
+                </a>
                 <p class="card-footer-item is-paddingless">
                   <button
-                    class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
+                  
+                    class="button is-static hvr-sweep-to-right  is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Site
                   </button>
@@ -177,14 +179,14 @@
               <footer class="card-footer">
                 <p class="card-footer-item is-paddingless">
                   <button
-                    class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
+                    class="button is-static hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Projeto
                   </button>
                 </p>
                 <p class="card-footer-item is-paddingless">
-                  <button
-                    class="button hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
+                  <button       
+                    class="button is-static hvr-sweep-to-right is-light is-fullwidth is-uppercase is-radiusless has-text-weight-bold tk-industry"
                   >
                     Ver Site
                   </button>
@@ -203,7 +205,10 @@
             <h3 class="subtitle">
               Preencha o formulário e responderemos rapidamente.
             </h3>
-            <form action="contact.php" method="post" class="validate">
+            <form name="contact" method="post" class="validate" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
+              <p class="is-hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </p>
             <div class="field">
               <label class="label is-hidden">Nome</label>
               <div class="control">
@@ -265,8 +270,6 @@
         <figure class="image is-128x128 has-image-centered">
           <img src="img/logo-sansone.png"/>
         </figure>
-        <h2 class="title">João Sansone</h2>
-        <h3 class="subtitle is-italic is-size-6">Diretor de Marketing e Desenvolvimento</h3>
         <p>
           <a href="mailto:joao@sansone.com.br">joao@sansone.com.br</a> | <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">+55 21 9 9550 9957</a>
         </p>
