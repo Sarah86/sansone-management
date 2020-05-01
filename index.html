@@ -29,9 +29,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
 
@@ -204,7 +203,7 @@
             <h3 class="subtitle">
               Preencha o formulário e responderemos rapidamente.
             </h3>
-            <form name="contact" method="post" class="validate" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
+            <form action="/success" name="contact" method="post" class="validate" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
               <p class="is-hidden">
                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
               </p>

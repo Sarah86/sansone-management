@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "aos": "^2.3.4",
+    "bulma-helpers": "^0.3.10",
     "hover.css": "^2.3.2",
     "nunjucks": "^3.2.1"
   },

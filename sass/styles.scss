@@ -2,6 +2,8 @@
 
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import "../css/fonts.css";
+
 
 // Set your brand colors
 $purple: #8A4D76;
@@ -37,6 +39,7 @@ $input-shadow: none;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-helpers/css/bulma-helpers.min.css";
 
 /*Own variables*/
 
