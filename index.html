@@ -354,6 +354,74 @@
       </div>
     </section>
 
+    <section class="section">    
+      <div class="container has-text-centered">
+        <div class="columns is-centered">
+          <div class="column is-half">
+            <h2 class="title">Fale Conosco</h2>
+            <h3 class="subtitle">
+              Preencha o formulário e responderemos rapidamente.
+            </h3>
+            <form action="/success" name="contact" method="post" class="validate" netlify-honeypot="bot-field" data-netlify="true" data-netlify-recaptcha="true">
+              <p class="is-hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </p>
+            <div class="field">
+              <label class="label is-hidden">Nome</label>
+              <div class="control">
+                <input data-validation="not-blank" class="input" type="text" placeholder="Nome" name="name" required/>
+              </div>
+              <div class="validation-error-message hidden has-text-danger">Por favor insira o seu nome.</div>
+            </div>
+            <div class="field">
+              <label class="label is-hidden">Email</label>
+              <div class="control">
+                <input
+                  data-validation="email not-blank" 
+                  class="input"
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="validation-error-message hidden has-text-danger">O e-mail deve estar em um formato válido.</div>
+            </div>
+            <div class="field">
+              <label class="label is-hidden">Telefone</label>
+              <div class="control">
+                <input
+                 data-validation="not-blank"
+                  class="input"
+                  type="tel"
+                  placeholder="Telefone"
+                  name="phone"
+                  required
+                />
+              </div>
+              <div class="validation-error-message hidden has-text-danger">Por favor, coloque um telefone válido para contato.</div>
+            </div>
+    
+            <div class="field">
+              <label class="label is-hidden">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Mensagem" name="message" required></textarea>
+              </div>
+              <div class="validation-error-message hidden has-text-danger">How can we help is required</div>
+            </div>
+            <div data-netlify-recaptcha="true"></div>
+            <div class="field is-grouped">
+              <div class="control">
+                <button type="submit" class="button is-link tk-industry is-uppercase">Enviar</button>
+              </div>
+              <div class="validation-error-message hidden has-text-danger">Por favor, revise seus dados antes de enviar o formulário.</div>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="footer">
       <div class="content has-text-centered">
         <figure class="image is-128x128 has-image-centered">
