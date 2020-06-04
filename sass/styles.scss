@@ -85,13 +85,22 @@ $letter-spacing-1: -0.1rem;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  
-.banner {
-    background-image: url("/img/banner.jpg");
+
+  .banner {
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
     padding: 1em;
+  }
+  
+.webp
+.banner {
+    background-image: url("/img/banner.webp");
+}
+
+.no-webp
+.banner {
+    background-image: url("/img/banner.jpg");
 }
 
 .banner_logo{

@@ -7159,11 +7159,16 @@ label.panel-block {
   transform: scaleX(1); }
 
 .banner {
-  background-image: url("/img/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
   padding: 1em; }
+
+.webp .banner {
+  background-image: url("/img/banner.webp"); }
+
+.no-webp .banner {
+  background-image: url("/img/banner.jpg"); }
 
 .banner_logo {
   width: 250px;
