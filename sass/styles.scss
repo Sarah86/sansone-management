@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-// Import a Google Font
-@import "../css/fonts.css";
-
-
 // Set your brand colors
 $purple: #8A4D76;
 $pink: #FA7C91;
@@ -124,7 +120,45 @@ $letter-spacing-1: -0.1rem;
     margin-right: auto !important;
 }
 
-.projetos {
+.webp .projetos {
+    padding-left: 0;
+    padding-right: 0;
+    .card {
+    background-size: cover;
+    background-position: center;
+    }
+    .base.card{
+        background-image: url("/img/capa-projeto---base.webp");
+        .card_logo{
+            height: 60px;
+        }
+    }
+    .bbt.card{
+        background-image: url("/img/capa-projeto---bbt.webp");
+    }
+    .cop.card{
+        background-image: url("/img/capa-projeto---cop.webp");
+    }
+    .w2c.card{
+        background-image: url("/img/capa-projeto---w2c.webp");
+    }
+    .xldr.card{
+        background-image: url("/img/capa-projeto---xldr.webp");
+    }
+    .card_logo{
+        height: 80px;
+        margin: auto;
+    }
+    .card-content {
+        min-height: 12em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+
+.no-webp .projetos {
     padding-left: 0;
     padding-right: 0;
     .card {

@@ -1,4 +1,3 @@
-@import url(../css/fonts.css);
 /*! bulma.io v0.8.2 | MIT License | github.com/jgthms/bulma */
 @import url(../node_modules/bulma-helpers/css/bulma-helpers.min.css);
 @keyframes spinAround {
@@ -7187,28 +7186,55 @@ label.panel-block {
   margin-left: auto !important;
   margin-right: auto !important; }
 
-.projetos {
+.webp .projetos {
   padding-left: 0;
   padding-right: 0; }
-  .projetos .card {
+  .webp .projetos .card {
     background-size: cover;
     background-position: center; }
-  .projetos .base.card {
-    background-image: url("/img/capa-projeto---base.jpg"); }
-    .projetos .base.card .card_logo {
+  .webp .projetos .base.card {
+    background-image: url("/img/capa-projeto---base.webp"); }
+    .webp .projetos .base.card .card_logo {
       height: 60px; }
-  .projetos .bbt.card {
-    background-image: url("/img/capa-projeto---bbt.jpg"); }
-  .projetos .cop.card {
-    background-image: url("/img/capa-projeto---cop.jpg"); }
-  .projetos .w2c.card {
-    background-image: url("/img/capa-projeto---w2c.jpg"); }
-  .projetos .xldr.card {
-    background-image: url("/img/capa-projeto---xldr.jpg"); }
-  .projetos .card_logo {
+  .webp .projetos .bbt.card {
+    background-image: url("/img/capa-projeto---bbt.webp"); }
+  .webp .projetos .cop.card {
+    background-image: url("/img/capa-projeto---cop.webp"); }
+  .webp .projetos .w2c.card {
+    background-image: url("/img/capa-projeto---w2c.webp"); }
+  .webp .projetos .xldr.card {
+    background-image: url("/img/capa-projeto---xldr.webp"); }
+  .webp .projetos .card_logo {
     height: 80px;
     margin: auto; }
-  .projetos .card-content {
+  .webp .projetos .card-content {
+    min-height: 12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+
+.no-webp .projetos {
+  padding-left: 0;
+  padding-right: 0; }
+  .no-webp .projetos .card {
+    background-size: cover;
+    background-position: center; }
+  .no-webp .projetos .base.card {
+    background-image: url("/img/capa-projeto---base.jpg"); }
+    .no-webp .projetos .base.card .card_logo {
+      height: 60px; }
+  .no-webp .projetos .bbt.card {
+    background-image: url("/img/capa-projeto---bbt.jpg"); }
+  .no-webp .projetos .cop.card {
+    background-image: url("/img/capa-projeto---cop.jpg"); }
+  .no-webp .projetos .w2c.card {
+    background-image: url("/img/capa-projeto---w2c.jpg"); }
+  .no-webp .projetos .xldr.card {
+    background-image: url("/img/capa-projeto---xldr.jpg"); }
+  .no-webp .projetos .card_logo {
+    height: 80px;
+    margin: auto; }
+  .no-webp .projetos .card-content {
     min-height: 12em;
     display: flex;
     flex-direction: column;
