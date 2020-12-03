@@ -13,12 +13,13 @@
   "license": "ISC",
   "dependencies": {
     "aos": "^2.3.4",
-    "bulma-helpers": "^0.3.10",
+    "bulma-helpers": "^0.3.12",
     "hover.css": "^2.3.2",
-    "nunjucks": "^3.2.1"
+    "inputmask": "^5.0.5",
+    "nunjucks": "^3.2.2"
   },
   "devDependencies": {
-    "bulma": "^0.8.2",
+    "bulma": "^0.9.1",
     "node-sass": "^4.14.1"
   }
 }
